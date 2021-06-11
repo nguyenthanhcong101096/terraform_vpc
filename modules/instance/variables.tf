@@ -27,18 +27,10 @@ variable key_name {
   type = string
 }
 
-variable public_subnets {
+variable subnets {
   type = any
 }
 
-variable sg_public_id {
-  type = any
-}
-
-variable "instance_profile" {
-  type = any
-}
-
-variable "cluster_name" {
+variable sg_id {
   type = any
 }
