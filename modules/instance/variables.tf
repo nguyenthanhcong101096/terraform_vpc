@@ -8,7 +8,7 @@ variable "instance_name" {
 }
 
 variable "instance_ami" {
-  default = "ami-01eadf33e58113fa2"
+  default = "ami-062e2ec9a8bfa02d6"
 }
 
 variable "instance_vol_type" {
